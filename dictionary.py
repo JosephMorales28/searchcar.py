@@ -7,7 +7,7 @@ car = {
     'price':[450000,355000,1375000,299000]
 }
 
-if name in car['brand'] and year in car['year']:
+if name in car['brand']:
     
     if name ==str('mazda') or name in car['brand'] and year==int(2008):
         if prices in car['price'] and int(450000)==prices or car['price'] and int(450000) >= prices:
