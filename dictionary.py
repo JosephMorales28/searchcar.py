@@ -1,13 +1,13 @@
 name=input("Search name of brand car: ")
 year=int(input("Enter year model:"))
-prices=int(input("Search price of the car:"))
+prices=int(input("Search for the price:"))
 car = {
     'brand':['mazda','toyota','lamborghini','ford'],
     'year': [2008, 2010,2013,2015],
     'price':[450000,355000,1375000,299000]
 }
 
-if name in car['brand']:
+if name in car['brand'] and year in car['year']:
     
     if name ==str('mazda') or name in car['brand'] and year==int(2008):
         if prices in car['price'] and int(450000)==prices or car['price'] and int(450000) >= prices:
